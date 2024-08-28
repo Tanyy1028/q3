@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+.nav{
+    height: 80px;
+    width: 40%;
+    /* background-color: aqua; */
+    margin: auto;
+    text-align: center;
+}
+.nav a{
+    text-decoration: none;
+    padding: 20px;
+    align-items: center;
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    font-weight: bolder;
+}
+.name{
+    height: 50px;
+    width: 30%;
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 30px;
+    text-align:center ;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.BAC{
+    height: 600px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+.bac-right{
+    height: 500px;
+    width: 40%;
+    margin-left: 50px;
+    /* background-color: aqua; */
+}
+.bac-right img{
+    height: 500px;
+    width: 100%;
+}
+.bac-left{
+    height: 500px;
+    width: 50%;
+    /* background-color: yellow; */
+    margin-left: 50px;
+}
+.bac-left{
+    height: 500px;
+    width: 50%;
+    /* background-color: red; */
+}
+.bac-left h4{
+    color: #2f2e2e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+}
+.bac-left input{
+    width: 80%;
+    height: 30px;
+    margin-top: 5px;
+    /* margin-left: 5px; */
+}
+.b input{
+    height: 120px;
+    width: 80%;
+}
